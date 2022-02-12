@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444120993815",
+    "project_id": "testedutracker",
+    "storage_bucket": "testedutracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444120993815:android:ae90f7b277445b72998c52",
+        "android_client_info": {
+          "package_name": "com.example.testedutracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444120993815-o0pbdjedhffv70lor455fj05iqjclas9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6kx1FFePzYD3b8ZOJ7KReJ2MG1o3j7DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444120993815-o0pbdjedhffv70lor455fj05iqjclas9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

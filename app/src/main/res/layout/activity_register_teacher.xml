@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bacround_gradient"
+    tools:context=".Registration.TeacherRegisterActivity">
+
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EduTracker"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/bannerDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Եղեք միշտ տեղեկացված "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner"
+        />
+
+    <EditText
+        android:id="@+id/tName"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Անուն Ազգանուն"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bannerDescription"
+        />
+
+    <EditText
+        android:id="@+id/tSubject"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Առարկա"
+        android:inputType="text"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tName"
+        />
+
+
+    <EditText
+        android:id="@+id/tPhone"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Հեռախոսահամար"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tSubject"
+        />
+
+    <EditText
+        android:id="@+id/tEmail"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Էլ. հասցե"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tPhone"
+        />
+
+    <EditText
+        android:id="@+id/tPassword"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Գաղտնաբառ"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tEmail"
+        />
+
+    <Button
+        android:id="@+id/regTeacher"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#0ED689"
+        android:text="Գրանցել"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tPassword"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBarTeacher"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

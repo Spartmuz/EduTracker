@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.testedutracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestEduTracker">
+        <activity android:name=".ListProfiles.UserListActivity" />
+        <activity android:name=".InformationActivity.CurrentProfileActivity" />
+        <activity android:name=".InformationActivity.ProfilesActivity" />
+        <activity android:name=".Registration.TeacherRegisterActivity" />
+        <activity android:name=".Registration.ParentRegisterActivity" />
+        <activity android:name=".Registration.ResetPasswordActivity" />
+        <activity android:name=".Registration.ChooseActivity" />
+        <activity android:name=".ListProfiles.TeacherActivity" />
+        <activity android:name=".ListProfiles.ItemActivity" />
+        <activity android:name=".ListProfiles.ParentActivity" />
+        <activity android:name=".Login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

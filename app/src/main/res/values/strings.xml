@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EduTracker</string>
+    <string name="pLogoutString">Log Out</string>
+    <string name="pMessagesMenuItem">Messages</string>
+    <string name="pProfileMenuItem">Profile</string>
+
+    <string-array name="subjects">
+        <item>English</item>
+        <item>Geometry</item>
+        <item>History</item>
+        <item>Geography</item>
+    </string-array>
+
+</resources>
